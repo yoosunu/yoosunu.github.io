@@ -1,0 +1,225 @@
+@import "clock.css";
+@import "greeting.css";
+@import "bgimg.css";
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#case {
+  margin: 40px;
+  border: 1px solid black;
+  border-radius: 25px;
+
+  height: 550px;
+  width: 310px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+  z-index: 1;
+  box-shadow: 0px 50px 100px 30px thistle;
+}
+
+.clock {
+  width: 300px;
+  border-bottom: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+.clock a {
+  font-size: 11px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.clock span {
+  color: whitesmoke;
+  position: relative;
+  right: 2px;
+}
+
+.clock i {
+  color: whitesmoke;
+  font-size: 11px;
+}
+
+.clock i:nth-child(3) {
+  position: relative;
+  left: 35px;
+}
+
+#screen {
+  /* padding-top: 20px; */
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  height: 540px;
+  width: 300px;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.login-form-div {
+  padding: 0px;
+  /* border: 1px solid black; */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: ivory; */
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 65px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 10px -3px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login-form-div button {
+  border-radius: 20px;
+  border: none;
+}
+
+.login-form-div form input {
+  padding-left: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+.login-form-div form input:focus {
+  border: 2px solid tomato;
+}
+
+.login-form {
+  display: flex;
+}
+
+.fa-carrot {
+  color: whitesmoke;
+  margin-right: 8px;
+}
+#greeting {
+  font-size: 15px;
+  border-bottom: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.mashimaro {
+  height: 380px;
+  width: 300px;
+
+  position: absolute;
+  top: 85px;
+
+  z-index: -1;
+}
+
+.mashimaro img {
+  width: 300px;
+  height: 390px;
+  opacity: 50%;
+}
+
+.todo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 388px;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.todo-div input {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.todo-div li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -10px;
+  right: 20px;
+  padding-top: 10px;
+}
+
+.todo-div li button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(200, 223, 241);
+  border-top: 1px solid black;
+}
+
+.weather-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 180px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+#stick {
+  margin: 0px 10px;
+}
+
+#weather span:first-child {
+  font-size: 12px;
+}
+
+#weather span:last-child {
+  font-size: 12px;
+}
+
+.btns {
+  border-top: 1px solid black;
+  height: 25px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.btns i {
+  color: lightgray;
+  cursor: pointer;
+}

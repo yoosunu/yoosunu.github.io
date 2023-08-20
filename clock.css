@@ -1,0 +1,16 @@
+.clock {
+  /* border: dashed; */
+  border-bottom: 1px solid black;
+  height: 20px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 30px;
+}
+
+.clock span {
+  text-align: center;
+  font-size: 12px;
+}
